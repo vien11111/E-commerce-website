@@ -1,0 +1,16 @@
+.collapse {
+  background: #929292;
+  &__text {
+    padding-bottom: 10px;
+    font-size: 14px;
+    &.active {
+      font-weight: 900;
+      text-decoration: underline;
+      color: rgb(255, 210, 7);
+    }
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

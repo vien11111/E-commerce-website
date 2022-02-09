@@ -1,0 +1,45 @@
+@import './colors';
+@import './breakpoints';
+@import './mixins';
+
+body {
+  font-family: Quicksand,sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: #f8f8f8;
+}
+
+.cl-blue {
+  color: #000080;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}

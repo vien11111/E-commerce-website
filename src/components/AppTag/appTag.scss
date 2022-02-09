@@ -1,0 +1,20 @@
+.tag-name {
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #dde1ef;
+  border-radius: 4px;
+  color: #000;
+  margin: 30px 8px;
+  padding: 5px 12px;
+  cursor: pointer;
+
+  &:active,
+  &:hover {
+    background-color: var(--yellow-color);
+    color: #fff;
+  }
+  &.active {
+    background-color: var(--yellow-color);
+    color: #fff;
+  }
+}

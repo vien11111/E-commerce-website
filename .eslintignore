@@ -1,0 +1,6 @@
+build/*
+public/*
+src/serviceWorker.ts
+src/reportWebVitals.ts
+node_modules
+.github

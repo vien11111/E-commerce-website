@@ -1,0 +1,37 @@
+
+
+  .policy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 35px 0;
+
+    &__col {
+      padding-bottom: 15px;
+    }
+
+    &__image {
+      width: 60px;
+      margin-right: 50px;
+    }
+
+    &__label {
+      font-weight: 600;
+    }
+
+    &__description {
+      font-size: 12px;
+
+      &--press{
+        color: #EE5275;
+      }
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .policy {
+      display: none;
+    }
+  }

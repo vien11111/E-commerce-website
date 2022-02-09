@@ -1,0 +1,29 @@
+.sidebar {
+  &__img {
+    width: 80px;
+    padding-right: 10px;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__menu {
+    padding: 10px 0;
+
+    &__icon {
+      width: 35px;
+      height: 35px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__label {
+      font-weight: 700;
+      color: #333;
+
+      padding-left: 10px;
+    }
+  }
+}

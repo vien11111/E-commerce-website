@@ -1,0 +1,26 @@
+.cDown {
+  width: unset;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  &__box {
+    &--error {
+      background: red;
+      color: #fff;
+      > .cDown__box__label {
+        color: #fff;
+      }
+    }
+    padding: 5px 15px;
+    color: #333;
+    font-size: 30px;
+    text-shadow: none;
+    text-align: center;
+    font-weight: 700;
+    &__label {
+      font-size: 14px;
+      color: #535353;
+      font-weight: 500;
+    }
+  }
+}

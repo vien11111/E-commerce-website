@@ -1,0 +1,49 @@
+.home-tag{
+  font-size: 16px;
+  
+}
+
+.female {
+  position: relative;
+  margin-bottom: 50px;
+  &__wrapper {
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: 100%;
+  }
+
+  &__content {
+    background: white;
+    width: 70%;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    padding: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  }
+}
+
+
+.female-feedback {
+  padding: 20px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .female {
+    &__wrapper {
+
+    }
+
+    &__content {
+      top: 40%;
+      width: 90%;
+    }
+  }
+
+
+  .female-feedback {
+    padding-top: 180px;
+    width: 100%;
+  }
+}

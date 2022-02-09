@@ -1,0 +1,27 @@
+.wrapper-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  .ant-btn-primary {
+    background: #ee4d2d;
+    border: none;
+    border-radius: 0;
+    min-width: 120px;
+    min-height: 35px;
+    &:hover {
+      background: #d39313;
+      border-color: #d39313;
+      ~ .divider {
+        background: #d39313;
+        border-color: #d39313;
+      }
+    }
+  }
+
+  .divider {
+    height: 35px;
+    width: 2px;
+    background: #ee4d2d;
+    margin-left: 2px;
+  }
+}
